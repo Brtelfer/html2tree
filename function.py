@@ -2,7 +2,7 @@ import sys
 import requests
 from bs4 import BeautifulSoup, Tag
 
-def html_to_text_tree(html_content):
+def html2tree(html_content):
     """Convert HTML content to a text tree representation."""
     soup = BeautifulSoup(html_content, 'html.parser')
     root = soup.html
