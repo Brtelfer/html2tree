@@ -76,5 +76,3 @@ def show_tree_from_file(filepath):
     html_content = process_url_or_file(filepath)
     if html_content:
         html_to_text_tree(html_content)
-
-html_to_text_tree(response.content)
